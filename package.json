@@ -4,7 +4,7 @@
   "private": true,
   "start": "nodemon server.js",
   "proxy": "http://localhost:3000",
-  "homepage" : "https://ayrtonto.github.io/ViajandoJuntos/build",
+  "homepage": "https://ayrtonto.github.io/ViajandoJuntos/build",
   "dependencies": {
     "@adobe/react-spectrum": "^3.31.1",
     "@emotion/react": "^11.11.1",
@@ -23,6 +23,7 @@
     "date-fns": "^2.30.0",
     "dayjs": "^1.11.10",
     "express": "^4.18.2",
+    "gh-pages": "^6.1.0",
     "helmet": "^7.1.0",
     "mongoose": "^8.0.0",
     "morgan": "^1.10.0",
