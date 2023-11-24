@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ViajandoJuntos/build/static/css/main.089d4659.css",
-    "main.js": "/ViajandoJuntos/build/static/js/main.90ce65f5.js",
+    "main.js": "/ViajandoJuntos/build/static/js/main.9257a75d.js",
     "static/media/Bosque_Arashiyama.jpeg": "/ViajandoJuntos/build/static/media/Bosque_Arashiyama.a7a50abab2975e3a2c45.jpeg",
     "static/media/person4.jpg": "/ViajandoJuntos/build/static/media/person4.bbace1ff38bd51a4220b.jpg",
     "static/media/bariloche.jpg": "/ViajandoJuntos/build/static/media/bariloche.0a8578bdb11686ad313f.jpg",
@@ -47,10 +47,10 @@
     "static/media/comment-add.svg": "/ViajandoJuntos/build/static/media/comment-add.4742a634489896afc376b18398241260.svg",
     "static/media/user.svg": "/ViajandoJuntos/build/static/media/user.9d53aa1dcb6c8d5bf2a061fccbe3827d.svg",
     "main.089d4659.css.map": "/ViajandoJuntos/build/static/css/main.089d4659.css.map",
-    "main.90ce65f5.js.map": "/ViajandoJuntos/build/static/js/main.90ce65f5.js.map"
+    "main.9257a75d.js.map": "/ViajandoJuntos/build/static/js/main.9257a75d.js.map"
   },
   "entrypoints": [
     "static/css/main.089d4659.css",
-    "static/js/main.90ce65f5.js"
+    "static/js/main.9257a75d.js"
   ]
 }
