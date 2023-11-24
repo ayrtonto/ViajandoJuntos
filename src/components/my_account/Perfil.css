@@ -1,0 +1,150 @@
+.main_containerE{
+    max-width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+
+.myprofileE{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_containerE{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.bar_containerE{
+    max-width: 27%;
+    margin-right: 70px;
+}
+
+.pfp_E{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.realnameE{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+}
+
+.usernameE{
+    color: gray;
+    margin: 0;
+    font: 400 20px Poppins, sans-serif;
+}
+
+.user_emailE{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_barE{
+    margin: 2em 0;
+}
+
+.linkE{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_linkE{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.settings_gridE{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.settingsE{
+    min-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.row{
+    display:flex;
+}
+.datosE{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0px;
+}
+
+.bioE{
+    color: black;
+    font: 300 15px Poppins, sans-serif;
+    margin-left: 5px;
+}
+
+.categoriasE{
+    color: black;
+    font: 600 15px Poppins, sans-serif;
+}
+
+.categoriasF{
+    color: black;
+    margin-top: 10px;
+    font: 300 15px Poppins, sans-serif;
+    margin-left: 50px;
+}
+.img_containerE{
+    max-height: 100px;
+    max-width: 320px;
+}
+
+.editar_btn {
+    
+    font: 600 15px Poppins, sans-serif;
+    padding: 10px;
+    background-color: #63ab44;
+    color: white;
+    border: none;
+    align-items: right;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rowbtn{
+    float: right;
+}
+.rowcat{
+    display:flex;
+    
+}
+.post_imgE{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.iconsE{
+    width: 20px;
+}
+
+.MuiFormControlLabel-label{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size:15px;
+    font-family: sans-serif;
+    
+}
+
+.stlink {
+    color: inherit; /* Hereda el color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+  }

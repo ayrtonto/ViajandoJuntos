@@ -1,0 +1,118 @@
+.main_containerP{
+    max-width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+
+.myprofileP{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_containerP{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.bar_containerP{
+    max-width: 27%;
+    margin-right: 70px;
+}
+
+.pfp_P{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.realnameP{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+}
+
+.titleP{
+    color: gray;
+    margin: 0;
+    font: 400 20px Poppins, sans-serif;
+}
+
+.user_emailP{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_barP{
+    margin: 2em 0;
+}
+
+.linkP{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_linkP{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.posts_gridP{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.postP{
+    max-height: 100%;
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.img_containerP{
+    max-height: 100px;
+    max-width: 320px;
+}
+
+
+.post_imgP{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.iconsP{
+    width: 20px;
+}
+
+.stlink {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.star-button {
+    object-fit: cover;
+    width: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.destacadoText {
+    color: #f39c12;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+  
+
+  

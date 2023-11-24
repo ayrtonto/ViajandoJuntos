@@ -1,0 +1,154 @@
+.main_containerP{
+    max-width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+
+.myprofileP{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_containerP{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.bar_containerP{
+    max-width: 27%;
+    margin-right: 70px;
+}
+
+.pfp_P{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.realnameP{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+}
+
+.usernameP{
+    color: gray;
+    margin: 0;
+    font: 400 20px Poppins, sans-serif;
+}
+
+.user_emailP{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_barP{
+    margin: 2em 0;
+}
+
+.linkP{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_linkP{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.posts_gridP{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.postP{
+    max-width: 25%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.postP2{
+    width: 231.88px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+.img_containerP{
+    max-height: 100px;
+    max-width: 320px;
+}
+
+
+.post_imgP{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.iconsP{
+    width: 20px;
+}
+
+.stlink {
+    color: inherit; /* Hereda el color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+.visibility_icon {
+    width: 20px;
+    cursor: pointer;
+    margin-left: auto; /* Esto empujará el ícono de visibilidad hacia la derecha */
+}
+
+.arrow_down {
+    font-size: 1rem; /* O ajusta el tamaño según tu preferencia */
+}
+
+.iconsGridP{
+    display: flex;
+}
+
+.visibility_options {
+    display: flex;
+    flex-direction: column;
+    font: 400 15px Poppins, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:100px;
+    position: absolute;
+    z-index: 1; 
+    box-shadow: 0 0 10px rgba(92, 91, 91, 0.8);
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #ccc;
+}
+
+.visibility_icon:hover + .visibility_options,
+
+.visibility_options p:hover::before {
+    background-color: rgba(92, 91, 91, 0.8); /* Fondo oscuro al pasar el cursor */
+}
+
+.visibility_options p {
+  position: relative;
+  margin-bottom: 0px; /* Espacio entre párrafos */
+  padding: 6px; /* Espaciado interno */
+  border-bottom: 1px solid #ccc; /* Línea divisoria */
+  transition: background-color 0.3s ease;
+}

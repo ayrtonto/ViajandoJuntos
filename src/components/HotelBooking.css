@@ -1,0 +1,168 @@
+.main_container{
+    max-width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+
+.myprofile{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.bar_container{
+    margin-top: 2%;
+    max-width: 20%;
+    margin-right: 80px;
+}
+
+.pfp{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.realname{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+
+}
+
+.username{
+    color: black;
+    margin: 1;
+    font: 400 20px Poppins;
+}
+
+.user_email{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_bar{
+    margin: 2em 0;
+}
+
+.link{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_link{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.posts_grid{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.post{
+    min-width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid rgb(99,171,68);
+    background-color: rgb(255, 255, 255);
+}
+.post_description{
+    max-width: 100%;
+    height: 60%;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.comprar{
+    float: right;
+    font: 200 14px Poppins, sans-serif;
+}
+.details{
+    font: 500 11px Poppins, sans-serif;
+    height: 10px;
+    background-color: #63ab44;
+    width: 5px;
+    margin-left: 50px;
+    line-height: 0.6cm;
+    padding-left: 10px;
+}
+
+.hotel_nombre{
+    width: 150px;
+    font: 600 20px Poppins, sans-serif;
+    color:black;
+    margin-left: 20px;
+    line-height: 0.5cm;
+    margin-top: 15px;
+}
+
+.hotelDetails{
+    font: 100 11px Poppins, sans-serif;
+    width: 160px;
+    color:black;
+    margin-top: 5px;
+    margin-left: 1px;
+    
+}
+
+.flightScales{
+    font: 100 16px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    
+}
+
+.price{
+    font: 600 24px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    text-align: end;
+}
+
+.priceU{
+
+    font: 200 14px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    margin-right: 1px;
+    margin-left: 370px;
+}
+
+.img_container{
+    max-height: 200px;
+    max-width: 320px;
+}
+
+.img_hotel{
+    object-fit: 'contain';
+    padding:0%;
+    height: 150px;
+    justify-content: 'flex-end';
+    border-radius: 10px;
+    margin-left: 0em;
+}
+
+.icons{
+    width: 10px;
+    height: 10px;
+    margin-top: 5%;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: -0.3em;
+}

@@ -1,0 +1,205 @@
+.image {
+    width: 98wh;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto ayuda a mantener la relación de aspecto y cubrir toda la ventana */
+  }
+
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .hero-title {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .lorem-ipsum-dolor {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    width: 686px;
+    /*text-align: center;
+    width: 686px;
+    top : 0px;*/
+  }
+  
+  .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 47.8px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 57.3px;
+    white-space: nowrap;
+    margin-bottom: 0;
+    /*position: absolute;
+    text-align: center;
+    top: 0;*/
+  }
+/*-------------------------------------------------------------------*/
+  .hero-search {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-45%);
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px 2px #00000040;
+    height: 80px;
+    
+    /* position: fixed; */
+    width: 850px;
+  }
+  
+  .group {
+    height: 49px;
+    left: 0px;
+    position: relative;
+    top: 8px;
+    width: 850px;
+  }
+
+  .div {
+    height: 49px;
+    left: 38px;
+    position: absolute;
+    top: 0;
+    width: 479px;
+  }
+  
+  .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .text1 {
+    color: var(--titlecolor);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    border: none;
+    outline: none;
+    background: transparent;
+    top: 8px;
+  }
+  
+  .div-wrapper {
+    align-items: flex-start;
+    border-color: var(--titlecolor);
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: inline-flex;
+    gap: 10px;
+    left: 227px;
+    padding: 10px;
+    position: absolute;
+    top: -1px;
+    
+  }
+  
+  .text2 {
+    color: var(--titlecolor);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame-2 {
+    align-items: flex-start;
+    border-color: var(--titlecolor);
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: inline-flex;
+    gap: 10px;
+    left: 500px;
+    padding: 10px;
+    position: absolute;
+    top: -1px;
+    height: 45px;
+  }
+  
+  .group-wrapper {
+    background-color: #63AB44;
+    border-radius: 10px;
+    height: 64px;
+    left: 670px;
+    position: absolute;
+    top: 0;
+    width: 168px;
+    cursor: pointer;
+  }
+  
+  .group-2 {
+    height: 29px;
+    left: 20px;
+    position: relative;
+    top: 20px;
+    width: 152px;
+  }
+  
+  .search_icon {
+    height: 24px;
+    left: 106px;
+    position: absolute;
+    top: 3px;
+    width: 24px;
+  }
+  
+  .text3 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+/*-------------------------------------------------------------------*/
+
+
+.customDatePicker {
+    border: none !important;
+    margin-top: -16px !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .customDatePicker .DateInput {
+    border: none !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  

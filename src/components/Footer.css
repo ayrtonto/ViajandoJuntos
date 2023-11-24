@@ -1,0 +1,197 @@
+.box {
+    height: 447px;
+    width: 100%;
+    background-color: blueviolet;
+    clear:both !important;
+    bottom:0;
+}
+
+.box .footer {
+    background-color: var(--buttonsprimary);
+    height: 447px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1280px;
+}
+
+.box .group {
+    height: 347px;
+    left: 50px;
+    position: relative;
+    top: 41px;
+    width: 1065px;
+}
+
+.box .img {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 313px;
+    width: 202px;
+}
+
+.box .div {
+    height: 248px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1065px;
+}
+
+.box .group-2 {
+    height: 248px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 301px;
+}
+
+.box .frame-wrapper {
+    height: 188px;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 301px;
+}
+
+.box .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.box .p {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 281px;
+}
+
+.box .logo-wrapper {
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 287px;
+}
+
+.box .design-component-instance-node {
+    color: #ffffff !important;
+}
+
+.box .overlap-group {
+    height: 225px;
+    left: 379px;
+    position: absolute;
+    top: 12px;
+    width: 412px;
+}
+
+.box .group-3 {
+    height: 225px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 205px;
+}
+
+.box .div-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    left: 1px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+}
+
+.box .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 19.2px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 34.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.box .group-4 {
+    height: 170px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 205px;
+}
+
+.box .link-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+
+.box .link-2 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 34px !important;
+}
+
+.box .link-3 {
+    left: 1px !important;
+    position: absolute !important;
+    top: 68px !important;
+}
+
+.box .link-4 {
+    left: 1px !important;
+    position: absolute !important;
+    top: 102px !important;
+}
+
+.box .link-5 {
+    left: 1px !important;
+    position: absolute !important;
+    top: 136px !important;
+}
+
+.box .group-5 {
+    height: 225px;
+    left: 199px;
+    position: absolute;
+    top: 0;
+    width: 213px;
+}
+
+.box .group-6 {
+    height: 170px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 213px;
+}
+
+.box .group-7 {
+    height: 225px;
+    left: 858px;
+    position: absolute;
+    top: 12px;
+    width: 207px;
+}
+
+.box .group-8 {
+    height: 170px;
+    left: 0;
+    position: absolute;
+    top: 55px;
+    width: 207px;
+}

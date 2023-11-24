@@ -1,0 +1,109 @@
+.containerE{
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+}
+
+.myprofileE{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_containerE{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.barP{
+    width: 388px;
+}
+
+.pfp_E{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.realnameE{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+}
+
+.countries{
+    color: black;
+    margin: 0;
+    font: 600 20px Poppins, sans-serif;
+}
+.descriptionP{
+    color: gray;
+    margin: 0;
+    font: 300 16px Poppins, sans-serif;
+
+}
+
+.user_emailE{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_barE{
+    margin: 2em 0;
+}
+
+.linkE{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_linkE{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.settings_gridE{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.settingsE{
+    max-width: 25%;
+    border-radius: 10px;
+    /*box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);*/
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.img_containerE{
+    max-height: 100px;
+    max-width: 320px;
+}
+.trips_gridE{
+    width: 100%;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.tripE{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0,0,0,0.25);
+    background-color: white;
+    padding: 20px 60px;
+}
+
+
+.stlink {
+    color: inherit; /* Hereda el color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+  }

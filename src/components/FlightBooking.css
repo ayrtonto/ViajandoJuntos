@@ -1,0 +1,196 @@
+.main_container{
+    max-width: 100%;
+    padding: 0;
+    margin: 20px;
+}
+
+.myprofile{
+    color: #63ab44;
+    font: 600 55px Poppins, sans-serif;
+    margin-left: 1em;
+}
+
+.profile_container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.bar_container{
+    margin-top: 2%;
+    max-width: 20%;
+    margin-right: 80px;
+}
+
+.pfp{
+    max-width: 190px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.realname{
+    font: 500 28px Poppins, sans-serif;
+    margin: 0;
+
+}
+
+.username{
+    color: black;
+    margin: 1;
+    font: 400 20px Poppins;
+}
+
+.user_email{
+    color: gray;
+    margin: 0;
+    font: 200 16px Poppins, sans-serif;
+}
+
+.action_bar{
+    margin: 2em 0;
+}
+
+.link{
+    color: black;
+    font: 300 24px Poppins, sans-serif;
+    margin: 0;
+}
+
+.current_link{
+    color:black;
+    font: 600 24px Poppins, sans-serif;
+    margin: 0;
+}
+.posts_grid{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    gap: 2em;
+    justify-content: left;
+}
+
+.post{
+    min-width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgb(99,171,68);
+    background-color: rgb(255, 255, 255);
+}
+.post_description{
+    justify-content: flex-start;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.comprar{
+    float: right;
+}
+.details{
+    font: 500 11px Poppins, sans-serif;
+    height: 10px;
+    background-color: #63ab44;
+    width: 30px;
+    margin-left: 50px;
+    line-height: 0.6cm;
+    padding-left: 10px;
+}
+
+.Airline{
+    width: 150px;
+    font: 400 16px Poppins, sans-serif;
+    color:black;
+    justify-content: space-between;
+    line-height: 0.5cm;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.departDetails{
+    width: 100px;
+    font: 600 16px Poppins, sans-serif;
+    color:black;
+    margin-left:50px;
+    line-height: 0.6cm;
+    padding-left: 5px;
+    margin-top: 30px;
+    
+}
+
+.departDetails2{
+    width: 100px;
+    font: 600 16px Poppins, sans-serif;
+    color:black;
+    margin-left:30px;
+    line-height: 0.6cm;
+    padding-left: 5px;
+    margin-top: 30px;
+    
+}
+
+.flightScales{
+    justify-content: space-between;
+    min-width: 75px;
+    font: 100 16px Poppins, sans-serif;
+    color:black;
+    margin-left: 30px;
+    line-height: 0.6cm;
+    padding-left: 10px;
+    margin-top: 30px;
+    
+}
+
+.flightScales2{
+    min-width: 70px;
+    max-width: 70px;
+    height: 50px;
+    margin-right: 30px;
+    font: 100 16px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.price_flight{
+    font: 600 24px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    text-align: end;
+}
+
+.priceU_flight{
+    font: 200 14px Poppins, sans-serif;
+    color:black;
+    line-height: 0.6cm;
+    margin-top: 30px;
+    margin-right: 1px;
+    margin-left: 30px;
+}
+
+.img_container{
+    max-height: 100px;
+    max-width: 320px;
+}
+
+.post_img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.icons{
+    min-width: 20px;
+    min-height: 20px;
+    margin-top: 30px;
+    margin-right: 5px;
+}

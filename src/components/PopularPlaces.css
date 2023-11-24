@@ -1,0 +1,120 @@
+.Places__Container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 2em 0;
+}
+
+.Places__Title{
+    color: var(--Secondary, #295943);
+    text-transform: capitalize;
+    align-self: center;
+    white-space: nowrap;
+    font: 700 16px/180% Poppins, sans-serif;
+  
+    @media (max-width: 991px) {
+      white-space: initial;
+    };
+}
+
+.Places__Subtitle{
+    color: var(--TitleColor, #3d3e48);
+    align-self: center;
+    margin-left: 10px;
+    white-space: nowrap;
+    font: 700 27.65px/120% Poppins, sans-serif;
+  
+    @media (max-width: 991px) {
+      white-space: initial;
+    };
+}
+
+.Places__Grid{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.Card__Container{
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 12px 10px;
+    width: 380px;
+    margin-top: 20px;
+    border: none;
+}
+.Card{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+
+.Places__Image{
+    aspect-ratio: 1.59;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    align-self: start;
+    border-radius:10px;
+}
+
+.Location{
+    color: var(--TitleColor, #3d3e48);
+    align-self: start;
+    margin-top: 13px;
+    text-align: left;
+    white-space: nowrap;
+    font: 700 19.2px/180% Poppins, sans-serif;
+  
+    @media (max-width: 991px) {
+      white-space: initial;
+    };
+}
+.Stats{
+    align-self: start;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  
+    @media (max-width: 991px) {
+      justify-content: center;
+    };
+}
+.Views{
+    color: var(--TitleColor, #3d3e48);
+    align-self: center;
+    margin: auto 0;
+    font: 400 14px/180% Poppins, sans-serif;
+}
+
+.Places__Icon{
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 24px;
+    overflow: hidden;
+    align-self: start;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.Star{
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 24px;
+    overflow: hidden;
+    align-self: start;
+    margin-top: 12px;
+    max-width: 100%;
+}
